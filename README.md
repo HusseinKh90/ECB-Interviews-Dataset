@@ -74,7 +74,7 @@ pip install requests beautifulsoup4 pandas pyarrow selenium
 
 ## Usage
 
-Open `Last_Version.ipynb` in Jupyter and run top to bottom. The notebook is linear — each section depends only on what precedes it. A full run against the live archive takes roughly 15–20 minutes, most of which is the `time.sleep(1)` between requests.
+Open `ECBInterviewsScraper.ipynb` in Jupyter and run top to bottom. The notebook is linear — each section depends only on what precedes it. A full run against the live archive takes roughly 15–20 minutes, most of which is the `time.sleep(1)` between requests.
 
 If you want to re-run only the extraction step (for example, to retry after editing a helper), you can skip the Selenium cell and load `interview_urls` from a previous run.
 
@@ -96,7 +96,7 @@ The scraper sends a descriptive `User-Agent` (`Mozilla/5.0 (research-scraper; ac
 ```
 ECB-Interviews-Dataset/
 │
-├── notebook.ipynb           # main scraper pipeline
+├── ECBInterviewsScraper.ipynb           # main scraper pipeline
 ├── README.md                # this file
 ├── requirements.txt         # Python dependencies
 ├── .gitignore
