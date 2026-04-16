@@ -1,0 +1,60 @@
+# ============================================================
+# .gitignore — ECB Interview Scraper
+# ============================================================
+
+# --- Python bytecode and build artefacts ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.Python
+build/
+dist/
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- Jupyter checkpoints ---
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# --- Editors and IDEs ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# --- Operating-system junk ---
+# macOS
+.DS_Store
+# Windows
+Thumbs.db
+desktop.ini
+
+# --- Secrets and local config ---
+.env
+.env.*
+*.local.json
+
+# --- Selenium / browser drivers ---
+# Selenium Manager handles these automatically, but if any stray
+# driver binaries end up alongside the notebook, skip them.
+chromedriver
+chromedriver.exe
+geckodriver
+geckodriver.exe
+
+# --- Logs ---
+*.log
+
+# --- Scraper outputs ---
+# The CSV files are the canonical dataset — keep them tracked.
+# Parquet is a derived performance copy that any user can regenerate.
+*.parquet
+
+# Errors from transient failures shouldn't be committed.
+ecb_interviews_errors.csv

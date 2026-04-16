@@ -1,0 +1,15 @@
+# Dependencies for the ECB Interview Scraper
+# Install with:  pip install -r requirements.txt
+#
+# Python 3.9 or newer is required.
+#
+# Not installable via pip — install separately:
+#   Google Chrome or Chromium (used by Selenium for URL discovery).
+#   Selenium 4 auto-manages the matching chromedriver via Selenium Manager,
+#   so no separate driver install is needed in most setups.
+
+requests>=2.31
+beautifulsoup4>=4.12
+pandas>=2.0
+pyarrow>=14.0           # Parquet engine used by pandas for the .parquet export
+selenium>=4.15
