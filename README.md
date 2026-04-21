@@ -111,7 +111,7 @@ ECB-Interviews-Dataset/
 The transcript text is the ECB's and their reproduction notice asks that the source be acknowledged. If you use the dataset in published work, please credit:
 
 > the European Central Bank for the underlying transcripts, and this project for the scraper and parsed dataset:
-> Hussein Khalid Hussein (2026). ECB Press Conference Dataset.
+> Hussein Khalid Hussein (2026). ECB Interview Dataset.
 > https://github.com/HusseinKh90/ECB-Interviews-Dataset
 
 ## License
